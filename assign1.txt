@@ -1,0 +1,26 @@
+1] cd /home
+   cat > Test
+
+2]cat > employeelist
+  cat > skillset
+
+3] cat > Test2 
+   ln -s skillset sskillset
+   ln skillset s2skillset
+   rm skillset 
+   cat sskillset
+   cat s2skillset
+
+4] chmod g-r+w user2
+
+5] chmod g-r user2
+
+6] chmod o-w user2
+
+7] chmod o-r+x user2
+
+8] chgrp user3 employeelist
+
+9] chown user5 skillset
+
+10] wc wmployees -l
